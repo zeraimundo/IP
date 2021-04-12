@@ -1,0 +1,19 @@
+import random
+
+
+num = []
+
+while(len(num) < 10):
+    
+    n = int(input('Insira um número:' ))
+    if (n >=1) and (n <=100):
+        num.append(n)
+        print('Insira novo valor.')
+    else:
+        print('Valor fora dos padrões solicitados!')
+print(num)
+    
+r = (random.randrange(1,100))
+print(r)
+
+print('quantidade de random:', num.count(r))
