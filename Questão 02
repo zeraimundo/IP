@@ -1,0 +1,15 @@
+soma = 0
+numeros = [0] * 8
+
+for i in range(8):
+    numeros[i] = int(input('Insira um número:' ))
+    soma += numeros[i]
+
+media = soma / 8
+
+print(numeros)
+print('A média é: ', media)
+
+for i in range(8):
+    if (numeros[i] > media):
+        print(numeros[i])
