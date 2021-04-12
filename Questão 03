@@ -1,0 +1,11 @@
+numeros = []
+
+while(len(numeros) < 6):
+    num = int(input())
+    if (not num in numeros):
+        print('Numero distinto')
+    else:
+        print('Numero repetido')
+    numeros.append(num)
+
+print(numeros)
