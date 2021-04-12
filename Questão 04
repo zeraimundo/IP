@@ -1,0 +1,16 @@
+num = []
+
+while(len(num) < 6):
+    
+    n = int(input('Insira um número:' ))
+    
+    if n not in num:
+        num.append(n)
+        print('Insira novo valor.')
+    else:
+        print('Valor já informado, por favor digitar outro!')
+
+while(len(num) < 7):
+        break
+    
+print(num)
